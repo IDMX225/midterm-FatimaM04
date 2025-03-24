@@ -1,0 +1,81 @@
+/* Body and overall styles */
+  body {
+    font-family: 'Yeseva One', cursive, sans-serif;
+    background-color: #998D8A;
+    color: #161414;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Title styles */
+  h1 {
+    font-family: 'Poiret One', cursive;
+    color: #2a0b0b;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Gallery Section */
+  #gallery {
+    display: flex;
+    justify-content: center;
+    background-color: #E3AFA1;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  #gallery figure {
+    width: 30%;
+  }
+  
+  #gallery img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Bio Section */
+  #bio, #websites, #reviews {
+    background-color: #D1E4B9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #bio h2, #websites h2, #reviews h2 {
+    font-size: 1.8rem;
+    color: #1c2a38;
+    margin-bottom: 15px;
+  }
+  
+  #bio p, #websites li, #reviews p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Footer */
+  #footer {
+    text-align: center;
+    font-size: 1rem;
+    color: #210e0e;
+    background-color: #94A6E0;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  
+  /* Mobile Friendly */
+  @media (max-width: 768px) {
+    #gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #gallery figure {
+      width: 80%;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
